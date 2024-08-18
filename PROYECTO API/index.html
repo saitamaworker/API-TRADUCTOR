@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body class="d-flex align-items-center justify-content-center">
+    <div class="container mt-5">
+    <h1 class="header text-center">Proyecto final API - TRADUCTOR</h1>
+    <div class="row languages-container mb-3">
+    <div class="col-md-6">
+        <label for="translatefrom">Traducir del:</label>
+        <select class="form-control" id="translatefrom"></select>
+    </div>
+    <div class="col-md-6">
+        <label for="translateto">al:</label>
+        <select class="form-control" id="translateto"></select>
+    </div>
+    </div>
+
+    <div class="row result-container">
+    <div class="col-md-6">
+        <label for="inputtranslate">Ingresa el texto a traducir:</label>
+        <textarea class="form-control" id="inputtranslate" rows="5"></textarea>
+    </div>
+            
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+         <label for="outputtranslate">Resultado:</label>
+        <textarea class="form-control" id="outputtranslate" rows="5" readonly></textarea>
+    </div>
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+        <button id="translate" class="btn btn-primary mt-4">TRADUCIR</button>
+    </div>
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

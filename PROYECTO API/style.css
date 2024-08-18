@@ -1,0 +1,61 @@
+body {
+    background-color: yellowgreen 
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px; 
+    color: #007bff;
+    font-family: cursive;
+    background-color: #d81919; 
+    padding: 10px; 
+}
+
+.languages-container {
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+.row.languages-container {
+    justify-content: center; 
+ }
+
+.first-section,.second-section {
+    width: 100%;
+    margin-bottom: 20px; 
+    color: #00ff80;
+  }
+
+.label {
+    text-align: center;
+    margin-bottom: 10px; 
+    color: red;
+}
+
+textarea, select {
+font-family: cursive;
+}
+
+.result-container {
+    justify-content: space-around;
+    align-items: flex-start; 
+    font-family: cursive;
+}
+
+.row.result-container {
+    margin-top: 20px; 
+}
+
+#translate {
+    width: 100%;
+    margin-top: 10px;
+    align-self: center;
+    background-color: #00ff80; 
+    color: black; 
+    border: none; 
+    padding: 10px; 
+}
+
+#translate:hover {
+    background-color: yellow;
+}
